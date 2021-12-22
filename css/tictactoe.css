@@ -1,0 +1,20 @@
+#field td {
+	width: 150px;
+	height: 150px;
+	border: 1px solid black;
+	text-align: center;
+	font-weight: bold;
+    font-size: 70px;
+}
+
+#field {
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-top: 200px;
+}
+
+body {
+    background-color: #ffe4c4 !important;
+}

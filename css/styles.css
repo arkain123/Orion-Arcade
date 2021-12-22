@@ -1,0 +1,121 @@
+.container, .container-lg, .container-md, .container-sm, .container-xl {
+    max-width: 1140px;   
+}
+
+.container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+    width: 100%;
+    padding-right: var(--bs-gutter-x,.75rem);
+    padding-left: var(--bs-gutter-x,.75rem);
+    margin-right: auto;
+    margin-left: auto;
+}
+
+body {
+    margin: 0;
+    font-size: 1.3rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    background-color: #fdf5e6; 
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.bg-light {
+    background-color: #ffe4c4 !important;
+}
+
+.b-example-divider {
+    height: 100%;
+    background-color: rgba(0, 0, 0, .1);
+    border: solid rgba(0, 0, 0, .15);
+    border-width: 1px 0;
+    box-shadow: inset 0 0.5em 1.5em rgb(0 0 0 / 10%), inset 0 0.125em 0.5em rgb(0 0 0 / 15%);
+}
+
+.scrollspy-example {
+    margin-left: 10%;
+    margin-top: 5%;
+    margin-right: 15%;
+}
+
+.list-group {
+    margin-left: 2%;
+    margin-top: 2%;
+    width: 100%;
+}
+
+.tt {
+    min-height: 725px;
+}
+
+.about-dark {
+    text-align: left;
+    padding: 12rem;
+
+}
+
+.about-card .row, .row-8 {
+    margin-right: -12px;
+    margin-left: -12px;
+}
+
+.about-card .row {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap:wrap;
+    margin-right: 15px;
+    /*margin-left: 25%;*/
+    align-items: center;
+}
+
+.ava img {
+    border-radius: 100%;
+}
+
+img {
+    max-width: 100%;
+}
+
+img, svg {
+    vertical-align: middle;
+}
+
+.about-card .row img {
+    border-style: none;
+    border-color: #cc7d00;
+}
+
+.about-card .info {
+    flex: 0 0 calc(100% - 104px);
+    max-width: calc(100% - 104px);
+    margin: auto 0;
+    padding-left: 1rem;
+}
+
+.about-card {
+    display: flex;
+    margin-bottom: 1.5rem;
+}
+
+.about-card .image {
+    flex: 0 0 104px;
+    max-width: 104px;
+}
+
+.about-card .name a {
+    color: #201c2b;
+
+}
+
+.about-card a:hover {
+    color: #f04012;
+    transition: all .5s;
+}
+
+.about-card a {
+    color: #201c2b;
+    text-decoration: none;
+    background-color: transparent;
+}

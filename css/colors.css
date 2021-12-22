@@ -1,0 +1,51 @@
+#parent {
+    text-align: center;
+}
+
+#field {
+}
+
+
+    #field td {
+        padding: 20px;
+        border: 1px solid black;
+        cursor: pointer;
+    }
+
+.active {
+    background: red;
+}
+
+h1 {
+    flex:1;
+}
+
+.disabled {
+    display:none;
+}
+
+.disabledclock {
+
+}
+
+.field {
+    display: inline-block;
+}
+
+tr {
+    font-size: 25px ;
+    background-color: #fff;
+}
+
+td {
+    min-width: 80px;
+}
+
+body {
+    background-color: #ffe4c4 !important;
+    font-family: Cambria !important;
+}
+
+html {
+    font-family: Cambria !important;
+}
