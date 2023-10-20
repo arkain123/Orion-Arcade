@@ -12,7 +12,7 @@ const regexAllMes = /(.+)/;
 const users = [];
 
 // Создайте экземпляр бота
-const bot = new Telegraf('6436952013:AAExpUPzm54RcCtAj681IpVXTW4-qzw9p1Q');
+const bot = new Telegraf('6659929844:AAHimT0xVaQKovHtSIXhNQmj5cCNg9F-YcM');
 bot.use(session());
 
 // Обработчик команды /start
