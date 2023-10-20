@@ -1,4 +1,5 @@
-const { Telegraf, Markup, session } = require('telegraf');
+const { Telegraf, Markup, session } = require('/node_modules/telegraf');
+import './node_modules/telegraf'
 
 // Уровни разговора
 const GENDER = 0;
